@@ -10,6 +10,6 @@ CREATE TABLE persons
     gender      VARCHAR(25),
     CONSTRAINT pk_persons PRIMARY KEY (id)
 );
-insert into persons(id, name, surname, gender) values(1, 'aaa', 'bbb', 'm');
-insert into persons(id, name, surname, gender) values(2, 'aaa', 'bbb', 'm');
-insert into persons(id, name, surname, gender) values(3, 'aaa', 'bbb', 'm');
+insert into persons(id, name, surname, gender) values(1, 'anna', 'anina', 'female');
+insert into persons(id, name, surname, gender) values(2, 'maria', 'mashina', 'female');
+insert into persons(id, name, surname, gender) values(3, 'ekaterina', 'katina', 'female');

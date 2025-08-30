@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ContextConfiguration(initializers = PostgresTestContainerInitializer.class)
 @SpringBootTest
-class SpringTestcontainersTestApplicationTests {
+class PostgresTestContainerTest {
     @Autowired
     private PersonService service;
     @Test
