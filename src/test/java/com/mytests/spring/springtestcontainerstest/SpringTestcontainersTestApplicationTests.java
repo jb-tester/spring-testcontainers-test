@@ -17,7 +17,6 @@ class SpringTestcontainersTestApplicationTests {
     @Test
     void testPersons() {
         System.out.println("Test started");
-        service.populateDB();
         List<Person> all = service.getAll();
         all.forEach(System.out::println);
         assertEquals(3, all.size());

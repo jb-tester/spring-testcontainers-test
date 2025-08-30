@@ -17,8 +17,8 @@ public class PostgresTestContainerInitializer
             new PostgreSQLContainer<>(DockerImageName.parse("postgres:16"))
                     .withDatabaseName("testdb")
                     .withUsername("test")
-                    .withPassword("test");
-    // .withInitScript("db/init.sql"); // optional
+                    .withPassword("test")
+    .withInitScript("db/init.sql"); // optional
 
     @Override
     public void initialize(ConfigurableApplicationContext context) {
