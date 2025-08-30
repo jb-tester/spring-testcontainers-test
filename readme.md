@@ -1,0 +1,1 @@
+postgres testcontainer configured as ApplicationContextInitializer implementation
